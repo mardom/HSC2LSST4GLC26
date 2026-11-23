@@ -74,4 +74,3 @@ This repository vendors `HSC_to_LSST` from `https://github.com/mardom/HSC_to_LSS
 
 If you use `HSC_to_LSST` in your research, please cite the LSST SLSC static strong lensing challenge paper:
 *(Clecio et al. 2026, in preparation)*
-# HSC2LSST4GLC26
