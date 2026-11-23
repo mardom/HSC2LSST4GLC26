@@ -1,0 +1,20 @@
+# Core scientific & astronomy dependencies
+numpy
+scipy
+astropy
+photutils
+reproject
+lenstronomy
+# Pinned: required to load the pickled DP0.2 GMM models in HSC_to_LSST/hsc_to_lsst/data/dp0/
+scikit-learn==1.5.2
+
+# Notebook & data-handling utilities
+tqdm
+pandas
+matplotlib
+jupyter
+ipykernel
+ipywidgets
+
+# Local vendored degradation package
+-e ./HSC_to_LSST

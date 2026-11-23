@@ -1,0 +1,27 @@
+# Original / duplicate large notebooks (kept locally, excluded from GitHub)
+Reading.ipynb
+Reading2.ipynb
+Reading3.ipynb
+Reading4.ipynb
+Rading4.ipynb
+Display_Degraded_Images.ipynb
+
+# Unrelated repository and local scratch / helper files
+MaxiMask/
+log.txt
+temp_log.txt
+failed-deep.txt
+loop_balanced_images.py
+run_degradation_manually.py
+update_notebook_limit.py
+update_notebook_kernel.py
+
+# Standard Python / Jupyter build & cache artifacts
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+*.log

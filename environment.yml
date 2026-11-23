@@ -1,0 +1,23 @@
+name: HSC2LSSTLensing
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy
+      - scipy
+      - astropy
+      - photutils
+      - reproject
+      - lenstronomy
+      # Pinned: required to load the pickled DP0.2 GMM models in HSC_to_LSST/hsc_to_lsst/data/dp0/
+      - scikit-learn==1.5.2
+      - tqdm
+      - pandas
+      - matplotlib
+      - jupyter
+      - ipykernel
+      - ipywidgets
+      - -e ./HSC_to_LSST
